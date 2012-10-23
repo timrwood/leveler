@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+html {
+	overflow: hidden;
+}
+
+stop.begin { stop-color:yellow; }
+stop.end { stop-color:green; }
