@@ -12,3 +12,13 @@ html {
 .hero {
 	fill : #f00;
 }
+
+.handle {
+	fill: #fff;
+	opacity: 0.1;
+	cursor: pointer;
+}
+
+.handle:hover {
+	opacity: 0.9;
+}

@@ -4,6 +4,11 @@ define(function (require, exports, module) {
 			this.$el = this.svg('rect', {
 				height : 20,
 			});
+			this.left = this.svg('rect', {
+				height : 20,
+				width: 0.2,
+				"class" : "handle"
+			});
 			this.render();
 		},
 
@@ -14,6 +19,11 @@ define(function (require, exports, module) {
 
 			this.$el.attr({
 				width: right - left,
+				x : left,
+				y : -20 + top
+			});
+
+			this.left.attr({
 				x : left,
 				y : -20 + top
 			});
