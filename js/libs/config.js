@@ -3,6 +3,7 @@ require.config({
 		"underscore": "libs/lodash",
 		"lodash": "libs/lodash",
 		"Backbone": "libs/backbone",
+		"bonsai": "libs/bonsai",
 		"text" : "libs/amd/text",
 		"json" : "libs/amd/json",
 		"hbs" : "libs/amd/hbs",

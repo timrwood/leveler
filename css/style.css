@@ -9,5 +9,6 @@ html {
 	overflow: hidden;
 }
 
-stop.begin { stop-color:yellow; }
-stop.end { stop-color:green; }
+.hero {
+	fill : #f00;
+}
