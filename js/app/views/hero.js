@@ -3,9 +3,13 @@ define(function (require, exports, module) {
 
 		initialize : function () {
 			this.$el = this.svg('circle', {
-				r : 0.25,
-				"class" : 'hero'
+				r : 0.4,
+				"class" : 'hero handle-xy'
 			});
+
+			this.model.on('change', this.render, this);
+
+			this.moveSnapXY(this.$el);
 
 			this.render();
 		},

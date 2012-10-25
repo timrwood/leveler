@@ -11,6 +11,7 @@ require.config({
 	},
 	baseUrl: "js",
 	waitSeconds: 4,
+	urlArgs: "bust=" + Date.now(),
 	shim : {
 		'underscore': {
 			deps: [],

@@ -12,12 +12,14 @@ define(function (require, exports, module) {
 			this.left = this.svg('rect', {
 				width: 2,
 				height : 22,
-				y : -20
+				y : -20,
+				"class" : "handle-x"
 			});
 			this.right = this.svg('rect', {
 				width: 2,
 				height : 22,
-				y : -20
+				y : -20,
+				"class" : "handle-x"
 			});
 			this.onMove(this.left, this.moveLeft, this);
 			this.onMove(this.right, this.moveRight, this);
@@ -26,20 +28,19 @@ define(function (require, exports, module) {
 		},
 
 		moveLeft : function (x, y) {
-			var left = this.model.get('left'),
-				right = this.model.get('right');
+			var left = this.snap('left'),
+				right = this.snap('right');
 			left += x;
 			left = Math.min(left, right);
-			this.model.set('left', left);
-			console.log(x);
+			this.snap('left', left);
 		},
 
 		moveRight : function (x, y) {
-			var left = this.model.get('left'),
-				right = this.model.get('right');
+			var left = this.snap('left'),
+				right = this.snap('right');
 			right += x;
 			right = Math.max(left, right);
-			this.model.set('right', right);
+			this.snap('right', right);
 		},
 
 		render : function () {

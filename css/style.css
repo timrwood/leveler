@@ -19,6 +19,14 @@ html {
 	cursor: pointer;
 }
 
-.handle:hover {
-	opacity: 0.9;
+.handle-x {
+	cursor: ew-resize;
+}
+
+.handle-y {
+	cursor: ns-resize;
+}
+
+.handle-xy {
+	cursor: move;
 }
