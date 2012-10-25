@@ -28,7 +28,7 @@ define(function (require, exports, module) {
 		moveLeft : function (x, y) {
 			var left = this.model.get('left'),
 				right = this.model.get('right');
-			left += x / 200;
+			left += x;
 			left = Math.min(left, right);
 			this.model.set('left', left);
 			console.log(x);
@@ -37,7 +37,7 @@ define(function (require, exports, module) {
 		moveRight : function (x, y) {
 			var left = this.model.get('left'),
 				right = this.model.get('right');
-			right += x / 200;
+			right += x;
 			right = Math.max(left, right);
 			this.model.set('right', right);
 		},
