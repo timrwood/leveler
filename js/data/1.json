@@ -1,6 +1,6 @@
 {
 	"floor" : {
-		"left" : -4,
+		"left" : -10,
 		"right" : 10
 	},
 	"cabinet" : [

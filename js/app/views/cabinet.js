@@ -5,16 +5,17 @@ define(function (require, exports, module) {
 
 		initialize : function () {
 			this.$el = this.svg('rect', {
-				height : 20,
+				y : -10,
+				"class" : "handle-x"
 			});
 			this.left = this.svg('rect', {
-				height : 20,
 				width: 0.4,
+				y : -10,
 				"class" : "handle handle-x"
 			});
 			this.right = this.svg('rect', {
-				height : 20,
 				width: 0.4,
+				y : -10,
 				"class" : "handle handle-x"
 			});
 			this.bottom = this.svg('rect', {
@@ -25,7 +26,13 @@ define(function (require, exports, module) {
 			this.onMove(this.left, this.moveLeft, this);
 			this.onMove(this.right, this.moveRight, this);
 			this.onMove(this.bottom, this.moveBottom, this);
+			this.onMove(this.$el, this.moveBoth, this);
 			this.render();
+		},
+
+		moveBoth : function (x, y) {
+			this.moveLeft(x, y);
+			this.moveRight(x, y);
 		},
 
 		moveLeft : function (x, y) {
@@ -47,6 +54,7 @@ define(function (require, exports, module) {
 		moveBottom : function (x, y) {
 			var top = this.snap('top');
 			top += y;
+			top = Math.min(-2, Math.max(-8, top));
 			this.snap('top', top);
 		},
 
@@ -58,17 +66,17 @@ define(function (require, exports, module) {
 			this.$el.attr({
 				width: right - left,
 				x : left,
-				y : -20 + top
+				height : 10 + top
 			});
 
 			this.left.attr({
 				x : left,
-				y : -20 + top
+				height : 10 + top
 			});
 
 			this.right.attr({
 				x : right - 0.4,
-				y : -20 + top
+				height : 10 + top
 			});
 
 			this.bottom.attr({
