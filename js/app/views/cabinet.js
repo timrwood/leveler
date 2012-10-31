@@ -4,6 +4,8 @@ define(function (require, exports, module) {
 		right : null,
 
 		initialize : function () {
+			this.__init();
+
 			this.$el = this.svg('rect', {
 				y : -10,
 				"class" : "handle-x"
@@ -22,12 +24,11 @@ define(function (require, exports, module) {
 				height : 0.4,
 				"class" : "handle handle-y"
 			});
-			this.model.on('change', this.render, this);
+			
 			this.onMove(this.left, this.moveLeft, this);
 			this.onMove(this.right, this.moveRight, this);
 			this.onMove(this.bottom, this.moveBottom, this);
 			this.onMove(this.$el, this.moveBoth, this);
-			this.render();
 		},
 
 		moveBoth : function (x, y) {

@@ -5,6 +5,8 @@ define(function (require, exports, module) {
 		right : null,
 
 		initialize : function () {
+			this.__init();
+
 			this.floor = this.svg('rect', {
 				height : 2,
 				y : 0
@@ -27,8 +29,6 @@ define(function (require, exports, module) {
 			});
 			this.onMove(this.left, this.moveLeft, this);
 			this.onMove(this.right, this.moveRight, this);
-			this.model.on('change', this.render, this);
-			this.render();
 		},
 
 		moveLeft : function (x, y) {

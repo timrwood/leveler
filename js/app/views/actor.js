@@ -4,12 +4,21 @@ define(function (require, exports, module) {
 
 	return require('Backbone').View.extend({
 
-		initialize : function () {
-			this.render();
+		_svgs : null,
+
+		__init : function () {
+			this.model.on("remove", this.remove, this);
+			this.model.on("change", this.render, this);
+
+			this._svgs = [];
 		},
 
 		svg : function (tag, attrs) {
-			return $.svg(tag).attr(attrs).appendTo($('svg'));
+			var svg = $.svg(tag).attr(attrs).appendTo($('svg'));
+
+			this._svgs.push(svg);
+
+			return svg;
 		},
 
 		snap : function (prop, val) {
@@ -47,6 +56,12 @@ define(function (require, exports, module) {
 			});
 		},
 
-		render : function () {}
+		render : function () {},
+
+		remove : function () {
+			while (this._svgs && this._svgs.length) {
+				this._svgs.pop().remove();
+			}
+		}
 	});
 });

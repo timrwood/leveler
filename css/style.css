@@ -3,6 +3,7 @@
 	padding: 0;
 	position: relative;
 	box-sizing: border-box;
+	font-family: Helvetica;
 }
 
 html {
@@ -29,4 +30,36 @@ html {
 
 .handle-xy {
 	cursor: move;
+}
+
+nav {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	width: 200px;
+}
+
+nav a,
+nav .add {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	background: #333;
+	display: block;
+	margin-right: 5px;
+	text-decoration: none;
+	border: 1px solid #000;
+	border-radius: 3px;
+	box-shadow: 0 1px 5px #999;
+	color: #fff;
+	position: relative;
+}
+
+nav .add .types {
+	display: block;
+}
+
+nav .add:hover .types {
+	display: block;
 }
