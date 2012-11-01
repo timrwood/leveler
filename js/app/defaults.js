@@ -2,7 +2,7 @@
 define(function (require, exports, module) {
 	return {
 		hero : {
-			x : 1,
+			x : 0,
 			y : -1
 		},
 		cabinet : {

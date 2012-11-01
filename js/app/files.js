@@ -41,6 +41,10 @@ define(function (require, exports, module) {
 			}
 		},
 
+		save : function (json) {
+			console.log(JSON.stringify(json, null, 4));
+		},
+
 		onFileLoaded : function (e) {
 			var obj = JSON.parse(e.target.result);
 			this.trigger("add", obj);

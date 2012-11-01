@@ -29,6 +29,28 @@ define(function (require, exports, module) {
 				}
 			}
 			return false;
+		},
+
+		toJSON : function () {
+			var op = {};
+
+			this.each(function (model) {
+				var type = model.get('type'),
+					defs = defaults[type],
+					json = model.toJSON(),
+					o = {},
+					key;
+
+				op[type] = op[type] || [];
+
+				for (key in defs) {
+					o[key] = json[key];
+				}
+
+				op[type].push(o);
+			});
+
+			return op;
 		}
 	});
 });

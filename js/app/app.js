@@ -26,6 +26,7 @@ define(function (require, exports, module) {
 
 			$(document).on("click", "[data-type]", $.proxy(this.addType, this));
 			$(document).on("click", ".reset", $.proxy(this.reset, this));
+			$(document).on("click", ".save", $.proxy(this.save, this));
 
 			this.reset();
 		},
@@ -72,6 +73,10 @@ define(function (require, exports, module) {
 					type : i
 				});
 			}, this));
+		},
+
+		save : function () {
+			files.save(this.actors.toJSON());
 		},
 
 		removeAll : function () {
