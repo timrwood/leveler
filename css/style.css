@@ -39,8 +39,7 @@ nav {
 	width: 200px;
 }
 
-nav a,
-nav .add {
+nav .button {
 	float: left;
 	height: 30px;
 	line-height: 30px;
@@ -54,10 +53,25 @@ nav .add {
 	box-shadow: 0 1px 5px #999;
 	color: #fff;
 	position: relative;
+	cursor: pointer;
 }
 
-nav .add .types {
-	display: block;
+nav .types {
+	display: none;
+	position: absolute;
+	bottom: 28px;
+	left: -1px;
+	background: #333;
+	border: 1px solid #000;
+	border-radius: 3px 3px 3px 0;
+}
+
+nav .type {
+	padding: 0 10px;
+}
+
+nav .add:hover {
+	border-radius: 0 0 3px 3px;
 }
 
 nav .add:hover .types {

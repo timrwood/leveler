@@ -4,7 +4,8 @@ define(function (require, exports, module) {
 		Actor = require("./models/actor"),
 		Actors = require("./collections/actors"),
 		Backbone = require("Backbone"),
-		files = require("./files");
+		files = require("./files"),
+		singletons = require("./singletons");
 
 	// todo: move this
 	$.svg = function (tag) {
@@ -22,6 +23,17 @@ define(function (require, exports, module) {
 			this.actors.on("reset", this.addAll, this);
 
 			files.on("add", this.add, this);
+
+			$(document).on("click", "[data-type]", $.proxy(this.addType, this));
+			$(document).on("click", ".reset", $.proxy(this.reset, this));
+
+			this.reset();
+		},
+
+		addType : function (e) {
+			this.actors.create({
+				type : $(e.currentTarget).data('type')
+			});
 		},
 
 		add : function (data) {
@@ -50,6 +62,16 @@ define(function (require, exports, module) {
 				});
 				view.render();
 			});
+		},
+
+		reset : function () {
+			this.removeAll();
+
+			$.each(singletons, $.proxy(function (i) {
+				this.actors.create({
+					type : i
+				});
+			}, this));
 		},
 
 		removeAll : function () {
