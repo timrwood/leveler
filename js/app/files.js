@@ -3,7 +3,8 @@ define(function (require, exports, module) {
 	var _ = require("lodash"),
 		Backbone = require("Backbone"),
 		reader = new FileReader(),
-		scene;
+		scene,
+		lastUsedName = "level.json";
 
 	function noop(e) {
 		e.stopPropagation();
@@ -11,6 +12,7 @@ define(function (require, exports, module) {
 	}
 
 	scene = _.extend({
+
 		init : function () {
 			$(document).on("dragenter", this.dragenter);
 			$(document).on("dragexit", this.dragexit);
@@ -37,12 +39,15 @@ define(function (require, exports, module) {
 
 			// Only call the handler if 1 or more files was dropped.
 			if (files.length > 0) {
+				lastUsedName = files[0].name;
 				reader.readAsText(files[0]);
 			}
 		},
 
 		save : function (json) {
-			console.log(JSON.stringify(json, null, 4));
+			var data = JSON.stringify(json, null, 4);
+
+			window.open("data:text/json;charset=UTF-8," + encodeURIComponent(data));
 		},
 
 		onFileLoaded : function (e) {

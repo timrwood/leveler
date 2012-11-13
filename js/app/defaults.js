@@ -11,8 +11,12 @@ define(function (require, exports, module) {
 			top : -4
 		},
 		floor : {
-			"left" : -10,
-			"right" : 10
+			left : -10,
+			right : 10
+		},
+		plate : {
+			x : 0,
+			height : 2
 		}
 	};
 });

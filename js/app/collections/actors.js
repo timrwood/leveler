@@ -17,7 +17,7 @@ define(function (require, exports, module) {
 			if (singletons[data.type] && this.hasType(data.type)) {
 				return;
 			}
-			$.extend(data, defaults[data.type]);
+			data = $.extend({}, defaults[data.type], data);
 			Backbone.Collection.prototype.create.call(this, data);
 		},
 
