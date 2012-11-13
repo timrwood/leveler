@@ -5,7 +5,7 @@ define(function (require, exports, module) {
 			this.__init();
 
 			this.$el = this.svg('circle', {
-				r : 0.4,
+				r : 0.2,
 				"class" : 'hero handle-xy'
 			});
 

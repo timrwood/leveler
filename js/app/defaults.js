@@ -17,6 +17,12 @@ define(function (require, exports, module) {
 		plate : {
 			x : 0,
 			height : 2
+		},
+		shelf : {
+			left : -2,
+			right : 2,
+			x : 0,
+			y : -4
 		}
 	};
 });
