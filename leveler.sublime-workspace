@@ -1,0 +1,1253 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addType"
+			],
+			[
+				"drag",
+				"dragenter"
+			],
+			[
+				"__mo",
+				"__moveCamera"
+			],
+			[
+				"act",
+				"actualWidth"
+			],
+			[
+				"box",
+				"boxWidth"
+			],
+			[
+				"bo",
+				"boxRatio"
+			],
+			[
+				"actual",
+				"actualWidth"
+			],
+			[
+				"t",
+				"typeof"
+			],
+			[
+				"clen",
+				"clientY"
+			],
+			[
+				"ac",
+				"actors"
+			],
+			[
+				"months",
+				"monthsParse"
+			],
+			[
+				"lan",
+				"langKey"
+			],
+			[
+				"process",
+				"processObjects"
+			],
+			[
+				"top",
+				"topLeftY"
+			],
+			[
+				"forma",
+				"formattedInputParts"
+			],
+			[
+				"Inde",
+				"independance"
+			],
+			[
+				"decla",
+				"declaration"
+			],
+			[
+				"detail",
+				"detailTex"
+			],
+			[
+				"far",
+				"farTexture"
+			],
+			[
+				"deta",
+				"detailOpacity"
+			],
+			[
+				"appen",
+				"appendToDom"
+			],
+			[
+				"contac",
+				"contactTemplateHtml"
+			],
+			[
+				"conta",
+				"contactFields"
+			],
+			[
+				"con",
+				"contactFields"
+			],
+			[
+				"ori",
+				"originalFiles"
+			],
+			[
+				"millis",
+				"milliseconds"
+			],
+			[
+				"arrow-box",
+				"arrow-box-nub"
+			],
+			[
+				"hour",
+				"hourOffset"
+			],
+			[
+				"actor",
+				"actorsToRemove"
+			],
+			[
+				"u",
+				"updateBeforePhysics"
+			],
+			[
+				"fu",
+				"funcName"
+			],
+			[
+				"light",
+				"lightPosition"
+			],
+			[
+				"whi",
+				"whiteSmoke"
+			],
+			[
+				"dropdo",
+				"dropdown-toggle"
+			],
+			[
+				"mach",
+				"machineTitle"
+			],
+			[
+				"docs",
+				"docsSectionCount"
+			],
+			[
+				"ja",
+				"jadeToHtml"
+			],
+			[
+				"ma",
+				"machineTitle"
+			],
+			[
+				"machi",
+				"machineFriendly"
+			],
+			[
+				"wi",
+				"withoutSuffix"
+			],
+			[
+				"with",
+				"withSuffix"
+			],
+			[
+				"iso",
+				"isoTimes"
+			],
+			[
+				"hou",
+				"hourOffset"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"input",
+				"inputParts"
+			],
+			[
+				"mak",
+				"makeDateFromString"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"YYYY-MM",
+				"YYYY-MM-DDTHH"
+			],
+			[
+				"as",
+				"assert"
+			],
+			[
+				"ass",
+				"assertLi"
+			],
+			[
+				"fa",
+				"failures"
+			],
+			[
+				"a",
+				"all-tests"
+			],
+			[
+				"is",
+				"isDST"
+			],
+			[
+				"jul",
+				"julIsDst"
+			],
+			[
+				"jan",
+				"janIsDst"
+			],
+			[
+				"ar",
+				"Arial"
+			],
+			[
+				"hel",
+				"Helvetica"
+			],
+			[
+				"ba",
+				"background	background-image: url"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 819,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/data/level.json",
+			"settings":
+			{
+				"buffer_size": 638,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/data/1.json",
+			"settings":
+			{
+				"buffer_size": 638,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app/views/shelf.js",
+			"settings":
+			{
+				"buffer_size": 1511,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1074,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/timwood/github/leveler/js/data/2.json",
+		"/Users/timwood/github/leveler/js/app/views/actor.js",
+		"/Users/timwood/github/leveler/js/app/collections/actors.js",
+		"/Users/timwood/github/leveler/js/app/singletons.js",
+		"/Users/timwood/github/leveler/js/app/files.js",
+		"/Users/timwood/github/leveler/js/libs/BlobBuilder.js",
+		"/Users/timwood/github/leveler/js/data/1.json",
+		"/Users/timwood/github/leveler/js/app/views/cabinet.js",
+		"/Users/timwood/github/leveler/js/app/views/floor.js",
+		"/Users/timwood/github/leveler/js/app/views/hero.js",
+		"/Users/timwood/github/leveler/js/app/models/actor.js",
+		"/Users/timwood/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/timwood/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/timwood/github/leveler/js/libs/config.js",
+		"/Users/timwood/github/leveler/js/app/views/scene.js",
+		"/Users/timwood/github/leveler/css/style.css",
+		"/Users/timwood/github/leveler/js/app/app.js",
+		"/Users/timwood/github/leveler/js/lib/config.js",
+		"/Users/timwood/github/leveler/js/lib/bonsai.js",
+		"/Users/timwood/github/leveler/style.css",
+		"/Users/timwood/github/leveler/app/app.js",
+		"/Users/timwood/Downloads/timrwood-fair-share-f6d4ffe/source/js/fair-share/config.js",
+		"/Users/timwood/github/leveler/lib/require.js",
+		"/Users/timwood/github/coffee/resources/levels/default.json",
+		"/Users/timwood/github/momentjs.com/tasks/html.js",
+		"/Users/timwood/github/momentjs.com/source/data/library.js",
+		"/Users/timwood/github/momentjs.com/source/templates/_docs.html",
+		"/Users/timwood/github/momentjs.com/source/templates/_home.html",
+		"/Users/timwood/github/moment/lang/eo.js",
+		"/Users/timwood/github/critter-chaos/editor/com/infinitebeta/critter-chaos/Editor.as",
+		"/Users/timwood/github/critter-chaos/editor/editor.as",
+		"/Users/timwood/github/momentjs.com/source/docs/manipulating/end-of.jade",
+		"/Users/timwood/github/momentjs.com/source/docs/manipulating/start-of.jade",
+		"/Users/timwood/github/momentjs.com/source/css/style.css",
+		"/Users/timwood/github/momentjs.com/source/docs/manipulating/sod.jade",
+		"/Users/timwood/github/momentjs.com/source/docs/manipulating/eod.jade",
+		"/Users/timwood/github/momentjs.com/.gitignore",
+		"/Users/timwood/github/momentjs.com/source/build.js",
+		"/Users/timwood/github/moment/test/lang/en.js",
+		"/Users/timwood/github/moment/moment.js",
+		"/Users/timwood/github/moment/test/moment/lang.js",
+		"/Users/timwood/github/critter-chaos/resources/scenes/main-options.scene",
+		"/Users/timwood/github/moment-timezone/moment-timezone.js",
+		"/Users/timwood/github/moment-timezone/data/raw/northamerica",
+		"/Users/timwood/github/critter-chaos/resources/scenes/class-selection.scene",
+		"/Users/timwood/github/critter-chaos/resources/animations/demo.anim",
+		"/Users/timwood/github/cannon.js/test/Vec3.js",
+		"/Users/timwood/github/cannon.js/demos/compound.js",
+		"/Users/timwood/github/cannon.js/demos/container.html",
+		"/Users/timwood/github/cannon.js/src/solver/Solver.js",
+		"/Users/timwood/github/cannon.js/src/objects/Sphere.js",
+		"/Users/timwood/github/cannon.js/src/objects/Shape.js",
+		"/Users/timwood/github/cannon.js/src/objects/RigidBody.js",
+		"/Users/timwood/github/cannon.js/src/objects/Compound.js",
+		"/Users/timwood/github/cannon.js/src/objects/Box.js",
+		"/Users/timwood/github/cannon.js/src/math/Vec3.js",
+		"/Users/timwood/github/cannon.js/src/math/Quaternion.js",
+		"/Users/timwood/github/cannon.js/Makefile",
+		"/Users/timwood/github/cannon.js/src/math/Mat3.js",
+		"/Users/timwood/github/cannon.js/src/material/Material.js",
+		"/Users/timwood/github/cannon.js/src/material/ContactMaterial.js",
+		"/Users/timwood/github/cannon.js/src/collision/NaiveBroadphase.js",
+		"/Users/timwood/github/cannon.js/src/collision/Broadphase.js",
+		"/Users/timwood/github/cannon.js/src/world/World.js",
+		"/Users/timwood/github/cannon.js/src/objects/Plane.js",
+		"/Users/timwood/github/cannon.js/.jshintrc",
+		"/Users/timwood/github/cannon.js/src/Cannon.js",
+		"/Users/timwood/github/moment/test/moment/add_subtract.js",
+		"/Users/timwood/github/moment/test/moment/diff.js",
+		"/Users/timwood/github/moment/test/moment/create.js",
+		"/Users/timwood/github/moment/package.json",
+		"/Users/timwood/github/momentjs.com/source/docs/displaying/format.jade",
+		"/Users/timwood/github/momentjs.com/source/docs/displaying/from.jade",
+		"/Users/timwood/github/momentjs.com/source/template/html.jade",
+		"/Users/timwood/github/momentjs.com/source/js/home.js",
+		"/Users/timwood/github/momentjs.com/source/js/docs.js",
+		"/Users/timwood/github/momentjs.com/makefile",
+		"/Users/timwood/github/momentjs.com/source/docs/displaying/difference.jade",
+		"/Users/timwood/github/n7m/.gitignore",
+		"/Users/timwood/github/n7m/test/convert.js",
+		"/Users/timwood/github/n7m/package.json",
+		"/Users/timwood/Desktop/ca2010.dp/ca000012010.dp",
+		"/Users/timwood/github/webgl-demos/deploy/css/style.css",
+		"/Users/timwood/github/webgl-demos/deploy/js/global.js",
+		"/Users/timwood/github/webgl-demos/deploy/depth-map/index.html",
+		"/Users/timwood/github/webgl-demos/deploy/basic-lighting/index.html",
+		"/Users/timwood/github/webgl-demos/deploy/depth-map/main.js",
+		"/Users/timwood/github/skills-assessment/css/style.css",
+		"/Users/timwood/github/skills-assessment/js/Mustache.js",
+		"/Users/timwood/github/skills-assessment/js/script.js",
+		"/Users/timwood/github/skills-assessment/index.html",
+		"/Users/timwood/github/timwoodcreates.com/makefile",
+		"/Users/timwood/github/timwoodcreates.com/make/art-thumbs.js",
+		"/Users/timwood/github/timwoodcreates.com/make/images.js",
+		"/Users/timwood/github/moment/test/lang/kr.js",
+		"/Users/timwood/github/moment/lang/kr.js",
+		"/Users/timwood/github/moment/test/lang/zh-tw.js",
+		"/Users/timwood/github/moment/lang/zh-tw.js",
+		"/Users/timwood/github/moment/lang/zh-cn.js",
+		"/Users/timwood/github/moment/test/lang/zh-cn.js",
+		"/Users/timwood/github/moment/lang/tr.js",
+		"/Users/timwood/github/moment/lang/sv.js",
+		"/Users/timwood/github/moment/lang/ru.js",
+		"/Users/timwood/github/moment/lang/pt.js",
+		"/Users/timwood/github/moment/lang/pl.js",
+		"/Users/timwood/github/moment/lang/nl.js",
+		"/Users/timwood/github/moment/lang/nb.js",
+		"/Users/timwood/github/moment/lang/it.js",
+		"/Users/timwood/github/moment/lang/gl.js",
+		"/Users/timwood/github/moment/lang/fr.js",
+		"/Users/timwood/github/moment/lang/fi.js",
+		"/Users/timwood/github/moment/lang/eu.js",
+		"/Users/timwood/github/moment/lang/es.js",
+		"/Users/timwood/github/moment/lang/en-gb.js",
+		"/Users/timwood/github/moment/lang/de.js",
+		"/Users/timwood/github/moment/lang/da.js",
+		"/Users/timwood/github/moment/lang/ca.js",
+		"/Users/timwood/github/interview-test/css/styles.css",
+		"/Users/timwood/github/moment/test/moment/is_moment.js",
+		"/Users/timwood/Desktop/2DGameplayTutorialProject/Assets/Artwork/Lerpz.fbx",
+		"/Users/timwood/Desktop/2DGameplayTutorialProject/Assets/Artwork/Crate.fbx",
+		"/Users/timwood/Desktop/2DGameplayTutorialProject/Assets/Artwork/Spaceship.fbx",
+		"/Users/timwood/github/moment/min/moment.min.js",
+		"/Users/timwood/github/momentjs.com/source/docs/displaying/ismoment.jade",
+		"/Users/timwood/github/moment/test/moment/utc.js",
+		"/Users/timwood/github/momentjs.com/source/docs/manipulating.jade",
+		"/Users/timwood/github/momentjs.com/source/docs/plugins/strftime.jade",
+		"/Users/timwood/github/momentjs.com/source/pages/test.jade"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/timwood/github/moment",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"_title\"",
+			"\"methods\" : {",
+			"\"_version\"",
+			"\"_signature\"",
+			"head",
+			"tokens",
+			"parse",
+			"charactersToReplace",
+			"timezoneParse",
+			"unix",
+			"floor",
+			"native",
+			"}), true",
+			"start.from(moment([2007, 1, 28]).add({",
+			"formatDate",
+			"equal(",
+			"    });",
+			"equal(",
+			"moment",
+			"deepEqual(",
+			"ok(",
+			"clone",
+			"body",
+			"t(",
+			"Date"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"title",
+			"methods : [",
+			"version",
+			"signature",
+			"",
+			"moment.humanizeDuration(",
+			"test.equal(",
+			"        test.done();\n    });",
+			"test.equal(",
+			"test.deepEqual(",
+			"test.ok("
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"boss": false,
+								"browser": true,
+								"curly": true,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": true,
+								"es5": true,
+								"evil": false,
+								"forin": false,
+								"immed": false,
+								"laxbreak": false,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": false,
+								"nonew": false,
+								"onevar": true,
+								"plusplus": false,
+								"regexp": false,
+								"strict": false,
+								"sub": true,
+								"undef": true,
+								"white": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/data/level.json",
+					"settings":
+					{
+						"buffer_size": 638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								638,
+								638
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"boss": false,
+								"browser": true,
+								"curly": true,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": true,
+								"es5": true,
+								"evil": false,
+								"forin": false,
+								"immed": false,
+								"laxbreak": false,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": false,
+								"nonew": false,
+								"onevar": true,
+								"plusplus": false,
+								"regexp": false,
+								"strict": false,
+								"sub": true,
+								"undef": true,
+								"white": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/data/1.json",
+					"settings":
+					{
+						"buffer_size": 638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								638,
+								638
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"boss": false,
+								"browser": true,
+								"curly": true,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": true,
+								"es5": true,
+								"evil": false,
+								"forin": false,
+								"immed": false,
+								"laxbreak": false,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": false,
+								"nonew": false,
+								"onevar": true,
+								"plusplus": false,
+								"regexp": false,
+								"strict": false,
+								"sub": true,
+								"undef": true,
+								"white": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/app/views/shelf.js",
+					"settings":
+					{
+						"buffer_size": 1511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1459,
+								1459
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"boss": false,
+								"browser": true,
+								"curly": true,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": true,
+								"es5": true,
+								"evil": false,
+								"forin": false,
+								"immed": false,
+								"laxbreak": false,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": false,
+								"nonew": false,
+								"onevar": true,
+								"plusplus": false,
+								"regexp": false,
+								"strict": false,
+								"sub": true,
+								"undef": true,
+								"white": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 1074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								698
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"boss": false,
+								"browser": true,
+								"curly": true,
+								"debug": false,
+								"devel": false,
+								"eqeqeq": true,
+								"eqnull": true,
+								"es5": true,
+								"evil": false,
+								"forin": false,
+								"immed": false,
+								"laxbreak": false,
+								"newcap": true,
+								"noarg": true,
+								"node": true,
+								"noempty": false,
+								"nonew": false,
+								"onevar": true,
+								"plusplus": false,
+								"regexp": false,
+								"strict": false,
+								"sub": true,
+								"undef": true,
+								"white": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 98.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 172.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/timwood/Desktop/HelloOpenGL/HelloOpenGL/SimpleFragment.glsl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true
+}

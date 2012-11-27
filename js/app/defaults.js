@@ -13,6 +13,11 @@ define(function (require, exports, module) {
 			x : 0,
 			height : 2
 		},
+		rope : {
+			x : 0,
+			y : -3,
+			height : 2
+		},
 		shelf : {
 			left : -2,
 			right : 2,
