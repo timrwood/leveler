@@ -11,6 +11,9 @@ define(function (require, exports, module) {
 				height : 0.4,
 				"class" : "handle-xy"
 			});
+			this.jump = this.svg('line', {
+				"class" : "jump-line"
+			});
 			this.left = this.svg('rect', {
 				width: 0.4,
 				height : 0.4,
@@ -63,6 +66,13 @@ define(function (require, exports, module) {
 			this.right.attr({
 				x : right + x - 0.4,
 				y : y
+			});
+
+			this.jump.attr({
+				x1 : left + x,
+				x2 : right + x,
+				y1 : y + 3,
+				y2 : y + 3
 			});
 		}
 	});

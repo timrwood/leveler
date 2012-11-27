@@ -40,6 +40,12 @@ svg {
 	cursor: move;
 }
 
+line {
+	stroke: #444;
+	stroke-width: 0.1;
+	opacity: 0.5;
+}
+
 nav {
 	position: fixed;
 	bottom: 10px;
