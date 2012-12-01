@@ -18,6 +18,10 @@ define(function (require, exports, module) {
 			y : -3,
 			height : 2
 		},
+		burner : {
+			x : 0,
+			y : -0.2
+		},
 		shelf : {
 			left : -2,
 			right : 2,
