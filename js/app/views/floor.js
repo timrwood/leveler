@@ -8,7 +8,7 @@ define(function (require, exports, module) {
 			this.__init();
 
 			this.floor = this.svg('rect', {
-				height : 2,
+				height : 0.2,
 				y : 0
 			});
 
@@ -20,14 +20,14 @@ define(function (require, exports, module) {
 
 			this.left = this.svg('rect', {
 				width: 2,
-				height : 2,
+				height : 0.5,
 				y : 0,
 				x : -2,
 				"class" : "floor handle-x"
 			});
 			this.right = this.svg('rect', {
 				width: 2,
-				height : 2,
+				height : 0.5,
 				y : 0,
 				"class" : "floor handle-x"
 			});

@@ -27,6 +27,10 @@ define(function (require, exports, module) {
 			right : 2,
 			x : 0,
 			y : -4
+		},
+		sink : {
+			left : 2,
+			right : 4
 		}
 	};
 });
