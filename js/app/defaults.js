@@ -31,6 +31,11 @@ define(function (require, exports, module) {
 		sink : {
 			left : 2,
 			right : 4
+		},
+		buoy : {
+			x : 0,
+			left : 2,
+			right : 4
 		}
 	};
 });
