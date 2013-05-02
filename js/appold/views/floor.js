@@ -1,5 +1,6 @@
 /*global $:false*/
 define(function (require, exports, module) {
+
 	return require('./actor').extend({
 		left : null,
 		right : null,

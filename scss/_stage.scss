@@ -1,0 +1,12 @@
+.stage {
+	position: fixed;
+	top: 40px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	@include transition(right 300ms);
+
+	.show-sidebar & {
+		right: 300px;
+	}
+}

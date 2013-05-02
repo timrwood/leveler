@@ -1,0 +1,27 @@
+aside {
+	position: fixed;
+	right: -300px;
+	top: 40px;
+	bottom: 0;
+	background: #eee;
+	border-left: 1px solid #aaa;
+	width: 300px;
+	padding: 10px;
+	@include transition(right 300ms);
+
+	.show-sidebar & {
+		right: 0;
+	}
+
+	.block {
+		background: #fff;
+		border: 1px solid #ddd;
+		margin-bottom: 10px;
+	}
+
+	h1 {
+		font-size: 16px;
+		padding: 10px;
+		border-bottom: 1px solid #ddd;
+	}
+}

@@ -1,97 +1,204 @@
+/* line 1, ../scss/style.scss */
 * {
-	margin: 0;
-	padding: 0;
-	position: relative;
-	box-sizing: border-box;
-	font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+  font-family: Helvetica;
 }
 
+/* line 9, ../scss/style.scss */
 html {
-	overflow: hidden;
+  overflow: hidden;
 }
 
-svg {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
+/* line 13, ../scss/style.scss */
 .hero {
-	fill : #f00;
+  fill: #f00;
 }
 
+/* line 17, ../scss/style.scss */
 .handle {
-	fill: rgba(255, 255, 255, 0.2);
-	cursor: pointer;
+  fill: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
 }
 
+/* line 22, ../scss/style.scss */
 .handle-x {
-	cursor: ew-resize;
+  cursor: ew-resize;
 }
 
+/* line 26, ../scss/style.scss */
 .handle-y {
-	cursor: ns-resize;
+  cursor: ns-resize;
 }
 
+/* line 30, ../scss/style.scss */
 .handle-xy {
-	cursor: move;
+  cursor: move;
 }
 
+/* line 34, ../scss/style.scss */
 .circle-border {
-	stroke: rgba(0, 0, 0, 0.5);
-	stroke-width: 0.05;
+  stroke: rgba(0, 0, 0, 0.5);
+  stroke-width: 0.05;
 }
 
+/* line 39, ../scss/style.scss */
 line {
-	stroke: #444;
-	stroke-width: 0.1;
-	opacity: 0.5;
+  stroke: #444;
+  stroke-width: 0.1;
+  opacity: 0.5;
 }
 
+/* line 45, ../scss/style.scss */
 nav {
-	position: fixed;
-	bottom: 10px;
-	left: 10px;
-	width: 200px;
-	height: 30px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 200px;
+  height: 30px;
 }
 
+/* line 53, ../scss/style.scss */
 nav .button {
-	float: left;
-	height: 30px;
-	line-height: 30px;
-	padding: 0 10px;
-	background: #333;
-	display: block;
-	margin-right: 5px;
-	text-decoration: none;
-	border: 1px solid #000;
-	border-radius: 3px;
-	color: #fff;
-	position: relative;
-	cursor: pointer;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  background: #333;
+  display: block;
+  margin-right: 5px;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
 }
 
+/* line 69, ../scss/style.scss */
 nav .types {
-	display: none;
-	position: absolute;
-	bottom: 28px;
-	left: -1px;
-	background: #333;
-	border: 1px solid #000;
-	border-radius: 3px 3px 3px 0;
+  display: none;
+  position: absolute;
+  bottom: 28px;
+  left: -1px;
+  background: #333;
+  border: 1px solid #000;
+  border-radius: 3px 3px 3px 0;
 }
 
+/* line 79, ../scss/style.scss */
 nav .type {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 
+/* line 83, ../scss/style.scss */
 nav .add:hover {
-	border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
 }
 
+/* line 87, ../scss/style.scss */
 nav .add:hover .types {
-	display: block;
+  display: block;
+}
+
+/* line 1, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside {
+  position: fixed;
+  right: -300px;
+  top: 40px;
+  bottom: 0;
+  background: #eee;
+  border-left: 1px solid #aaa;
+  width: 300px;
+  padding: 10px;
+  -webkit-transition: right 300ms;
+  -moz-transition: right 300ms;
+  -o-transition: right 300ms;
+  transition: right 300ms;
+}
+/* line 12, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+.show-sidebar aside {
+  right: 0;
+}
+/* line 16, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside .block {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+/* line 22, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside h1 {
+  font-size: 16px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 1, /Users/tim.wood/github/leveler/scss/_header.scss */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: #222;
+  border-bottom: 1px solid #000;
+}
+/* line 10, /Users/tim.wood/github/leveler/scss/_header.scss */
+header button {
+  display: block;
+}
+/* line 14, /Users/tim.wood/github/leveler/scss/_header.scss */
+header .left {
+  width: 40%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+/* line 20, /Users/tim.wood/github/leveler/scss/_header.scss */
+header .left button {
+  float: left;
+  margin-right: 5px;
+}
+/* line 26, /Users/tim.wood/github/leveler/scss/_header.scss */
+header .right {
+  width: 40%;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+/* line 32, /Users/tim.wood/github/leveler/scss/_header.scss */
+header .right button {
+  float: right;
+  margin-left: 5px;
+}
+
+/* line 1, /Users/tim.wood/github/leveler/scss/_chrome-ui.scss */
+button {
+  height: 30px;
+  border: 1px solid #555;
+  background: #444;
+  color: #bbb;
+  padding: 4px 10px;
+  line-height: 20px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* line 1, /Users/tim.wood/github/leveler/scss/_stage.scss */
+.stage {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: right 300ms;
+  -moz-transition: right 300ms;
+  -o-transition: right 300ms;
+  transition: right 300ms;
+}
+/* line 9, /Users/tim.wood/github/leveler/scss/_stage.scss */
+.show-sidebar .stage {
+  right: 300px;
 }
