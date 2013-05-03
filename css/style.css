@@ -196,5 +196,6 @@ g:hover .handle {
 
 /* line 26, /Users/tim.wood/github/leveler/scss/_types.scss */
 .hint {
-  fill: rgba(0, 0, 0, 0.2);
+  fill: rgba(0, 0, 0, 0.1);
+  pointer-events: none;
 }

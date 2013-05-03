@@ -23,7 +23,7 @@ define(function (require) {
 				height = Math.max(opts.min, height);
 			}
 			if (opts.max !== undefined) {
-				height = Math.max(opts.max, height);
+				height = Math.min(opts.max, height);
 			}
 
 			this.model.set({

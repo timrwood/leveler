@@ -10,7 +10,6 @@ define(function (require) {
 			this.width_set(this.model.get('width') || 0);
 		};
 
-
 		this.width_move = function (x, y) {
 			this.width_set(this._raw.width + x);
 		};
@@ -24,7 +23,7 @@ define(function (require) {
 				w = Math.max(opts.min, w);
 			}
 			if (opts.max !== undefined) {
-				w = Math.max(opts.max, w);
+				w = Math.min(opts.max, w);
 			}
 			this.model.set({
 				width : w

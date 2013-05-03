@@ -24,7 +24,8 @@ define(function (require, exports, module) {
 	});
 
 	require("../mixins/xy").call(Class.prototype, {
-		snap : 0.2
+		snap : 0.2,
+		maxy : 0
 	});
 
 	return Class;

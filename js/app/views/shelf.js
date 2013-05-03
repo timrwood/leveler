@@ -19,22 +19,23 @@ define(function (require) {
 		},
 
 		render : function () {
-			this.$el.attr({
-				width: this.model.get('width')
-			});
+			var a = {
+				x : -this.model.get('width'),
+				width: this.model.get('width') * 2
+			};
 
-			this.jump.attr({
-				width: this.model.get('width')
-			});
+			this.$el.attr(a);
+			this.jump.attr(a);
 		}
 	});
 
 	require("../mixins/width").call(Class.prototype, {
-		min : 1,
+		min : 0.6,
 		snap : 0.2
 	});
 	require("../mixins/xy").call(Class.prototype, {
-		snap : 0.2
+		snap : 0.2,
+		maxy : -0.2
 	});
 
 	return Class;
