@@ -1,15 +1,19 @@
 /*global $:false*/
 define(function (require, exports, module) {
 	var Backbone = require('Backbone'),
-		model = require("../models/actor"),
+		model,
 		singletons = require("../singletons"),
 		defaults = require("../defaults");
+
+	model = Backbone.Model.extend({
+		save : function () {}
+	});
 
 	return Backbone.Collection.extend({
 		model : model,
 
 		initialize : function () {
-			
+
 		},
 
 		create : function (data) {

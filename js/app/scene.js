@@ -20,6 +20,10 @@ define(function (require, exports, module) {
 		__isMovingCamera : false,
 
 		__moveStart : function (e) {
+			if (e.altKey || e.ctrlKey || e.metaKey || e.button) {
+				return;
+			}
+
 			this.__lx = e.clientX;
 			this.__ly = e.clientY;
 

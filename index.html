@@ -1,29 +1,31 @@
 <!doctype html>
 <title>Leveler</title>
 <link rel="stylesheet" href="css/style.css" />
-<header>
-	<div class="right">
-		<button data-action="sidebar">Toggle Sidebar</button>
+<body class="show-sidebar">
+	<header>
+		<div class="right">
+			<button data-action="sidebar">Toggle Sidebar</button>
+		</div>
+		<div class="left">
+			<button data-action="save">Save</button>
+			<button data-action="reset">Reset</button>
+		</div>
+	</header>
+	<aside>
+		<div class="block">
+			<h1>Add Entities</h1>
+			<div class="block-content" id="block-add-items"></div>
+		</div>
+		<div class="block">
+			<h1>Current Entity</h1>
+			<div class="block-content" id="block-add-items"></div>
+		</div>
 	</div>
-	<div class="left">
-		<button data-action="save">Save</button>
-		<button data-action="reset">Reset</button>
+	<div class="stage">
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-10 -10 20 20"></svg>
 	</div>
-</header>
-<aside>
-	<div class="block">
-		<h1>Add Entities</h1>
-		<div id="block-add-items"></div>
-	</div>
-	<div class="block">
-		<h1>Current Entity</h1>
-		<div id="block-add-items"></div>
-	</div>
-</div>
-<div class="stage">
-	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-10 -10 20 20"></svg>
-</div>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/libs/require.js"></script>
+	<script src="js/libs/config.js"></script>
+</body>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="js/libs/require.js"></script>
-<script src="js/libs/config.js"></script>

@@ -19,4 +19,5 @@ require.config({
 });
 require(["app/app"], function (app) {
 	window.leveler = app;
+	app.init();
 });

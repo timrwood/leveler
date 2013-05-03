@@ -17,92 +17,6 @@ html {
   fill: #f00;
 }
 
-/* line 17, ../scss/style.scss */
-.handle {
-  fill: rgba(255, 255, 255, 0.2);
-  cursor: pointer;
-}
-
-/* line 22, ../scss/style.scss */
-.handle-x {
-  cursor: ew-resize;
-}
-
-/* line 26, ../scss/style.scss */
-.handle-y {
-  cursor: ns-resize;
-}
-
-/* line 30, ../scss/style.scss */
-.handle-xy {
-  cursor: move;
-}
-
-/* line 34, ../scss/style.scss */
-.circle-border {
-  stroke: rgba(0, 0, 0, 0.5);
-  stroke-width: 0.05;
-}
-
-/* line 39, ../scss/style.scss */
-line {
-  stroke: #444;
-  stroke-width: 0.1;
-  opacity: 0.5;
-}
-
-/* line 45, ../scss/style.scss */
-nav {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  width: 200px;
-  height: 30px;
-}
-
-/* line 53, ../scss/style.scss */
-nav .button {
-  float: left;
-  height: 30px;
-  line-height: 30px;
-  padding: 0 10px;
-  background: #333;
-  display: block;
-  margin-right: 5px;
-  text-decoration: none;
-  border: 1px solid #000;
-  border-radius: 3px;
-  color: #fff;
-  position: relative;
-  cursor: pointer;
-}
-
-/* line 69, ../scss/style.scss */
-nav .types {
-  display: none;
-  position: absolute;
-  bottom: 28px;
-  left: -1px;
-  background: #333;
-  border: 1px solid #000;
-  border-radius: 3px 3px 3px 0;
-}
-
-/* line 79, ../scss/style.scss */
-nav .type {
-  padding: 0 10px;
-}
-
-/* line 83, ../scss/style.scss */
-nav .add:hover {
-  border-radius: 0 0 3px 3px;
-}
-
-/* line 87, ../scss/style.scss */
-nav .add:hover .types {
-  display: block;
-}
-
 /* line 1, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
 aside {
   position: fixed;
@@ -133,6 +47,14 @@ aside h1 {
   font-size: 16px;
   padding: 10px;
   border-bottom: 1px solid #ddd;
+}
+/* line 28, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside .block-content {
+  padding: 8px;
+}
+/* line 32, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside button {
+  margin: 2px;
 }
 
 /* line 1, /Users/tim.wood/github/leveler/scss/_header.scss */
@@ -179,11 +101,12 @@ button {
   height: 30px;
   border: 1px solid #555;
   background: #444;
-  color: #bbb;
+  color: #fff;
   padding: 4px 10px;
   line-height: 20px;
   border-radius: 3px;
   font-size: 16px;
+  font-weight: 100;
 }
 
 /* line 1, /Users/tim.wood/github/leveler/scss/_stage.scss */
@@ -201,4 +124,77 @@ button {
 /* line 9, /Users/tim.wood/github/leveler/scss/_stage.scss */
 .show-sidebar .stage {
   right: 300px;
+}
+
+/* line 1, /Users/tim.wood/github/leveler/scss/_handles.scss */
+.handle {
+  fill: rgba(0, 0, 0, 0.3);
+  stroke-color: #fff;
+  stroke-width: 1;
+  cursor: pointer;
+  display: none;
+}
+/* line 8, /Users/tim.wood/github/leveler/scss/_handles.scss */
+g:hover .handle {
+  display: block;
+}
+
+/* line 13, /Users/tim.wood/github/leveler/scss/_handles.scss */
+.handle-x {
+  cursor: ew-resize;
+}
+
+/* line 17, /Users/tim.wood/github/leveler/scss/_handles.scss */
+.handle-y {
+  cursor: ns-resize;
+}
+
+/* line 21, /Users/tim.wood/github/leveler/scss/_handles.scss */
+.handle-xy {
+  cursor: move;
+}
+
+/* line 10, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-floor {
+  background: #553300;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+/* line 5, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-floor .type-color {
+  fill: #553300;
+}
+
+/* line 14, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-rope {
+  background: #443388;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+/* line 5, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-rope .type-color {
+  fill: #443388;
+}
+
+/* line 18, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-shelf {
+  background: #cc2266;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+/* line 5, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-shelf .type-color {
+  fill: #cc2266;
+}
+
+/* line 22, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-burner {
+  background: #ff4400;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+/* line 5, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-burner .type-color {
+  fill: #ff4400;
+}
+
+/* line 26, /Users/tim.wood/github/leveler/scss/_types.scss */
+.hint {
+  fill: rgba(0, 0, 0, 0.2);
 }

@@ -5,6 +5,12 @@
 			"path": "js/app/views"
 		},
 		{
+			"path": "js/app/mixins"
+		},
+		{
+			"path": "scss"
+		},
+		{
 			"path": "."
 		}
 	]

@@ -1,0 +1,28 @@
+@mixin type ($color) {
+	background: $color;
+	border-color: rgba(#000, 0.5);
+
+	.type-color {
+		fill: $color;
+	}
+}
+
+.is-floor {
+	@include type(#530);
+}
+
+.is-rope {
+	@include type(#438);
+}
+
+.is-shelf {
+	@include type(#c26);
+}
+
+.is-burner {
+	@include type(#f40);
+}
+
+.hint {
+	fill: rgba(#000, 0.2);
+}

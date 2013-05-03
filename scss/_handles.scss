@@ -1,0 +1,23 @@
+.handle {
+	fill: rgba(#000, 0.3);
+	stroke-color: #fff;
+	stroke-width: 1;
+	cursor: pointer;
+	display: none;
+
+	g:hover & {
+		display: block;
+	}
+}
+
+.handle-x {
+	cursor: ew-resize;
+}
+
+.handle-y {
+	cursor: ns-resize;
+}
+
+.handle-xy {
+	cursor: move;
+}

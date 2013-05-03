@@ -20,7 +20,7 @@ define(function (require, exports, module) {
 		},
 		burner : {
 			x : 0,
-			y : -0.2
+			y : 0
 		},
 		shelf : {
 			left : -2,
