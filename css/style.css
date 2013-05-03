@@ -56,6 +56,37 @@ aside .block-content {
 aside button {
   margin: 2px;
 }
+/* line 36, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside .attr {
+  line-height: 24px;
+  height: 24px;
+}
+/* line 40, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside .attr + .attr {
+  margin-top: 5px;
+}
+/* line 44, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside .attr input {
+  background: #eee;
+  border: 1px solid #ddd;
+  line-height: 16px;
+  padding: 4px 5px;
+  width: 100px;
+  float: right;
+  border-radius: 3px;
+}
+/* line 53, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside .attr input:focus {
+  outline: none;
+  border-color: #999;
+}
+/* line 59, /Users/tim.wood/github/leveler/scss/_sidebar.scss */
+aside .attr label {
+  display: block;
+  height: 40px;
+  margin-right: 110px;
+  text-align: right;
+}
 
 /* line 1, /Users/tim.wood/github/leveler/scss/_header.scss */
 header {
@@ -132,24 +163,19 @@ button {
   stroke-color: #fff;
   stroke-width: 1;
   cursor: pointer;
-  display: none;
-}
-/* line 8, /Users/tim.wood/github/leveler/scss/_handles.scss */
-g:hover .handle {
-  display: block;
 }
 
-/* line 13, /Users/tim.wood/github/leveler/scss/_handles.scss */
+/* line 8, /Users/tim.wood/github/leveler/scss/_handles.scss */
 .handle-x {
   cursor: ew-resize;
 }
 
-/* line 17, /Users/tim.wood/github/leveler/scss/_handles.scss */
+/* line 12, /Users/tim.wood/github/leveler/scss/_handles.scss */
 .handle-y {
   cursor: ns-resize;
 }
 
-/* line 21, /Users/tim.wood/github/leveler/scss/_handles.scss */
+/* line 16, /Users/tim.wood/github/leveler/scss/_handles.scss */
 .handle-xy {
   cursor: move;
 }
@@ -195,6 +221,26 @@ g:hover .handle {
 }
 
 /* line 26, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-sink {
+  background: #6688ff;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+/* line 5, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-sink .type-color {
+  fill: #6688ff;
+}
+
+/* line 30, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-buoy {
+  background: #cccc55;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+/* line 5, /Users/tim.wood/github/leveler/scss/_types.scss */
+.is-buoy .type-color {
+  fill: #cccc55;
+}
+
+/* line 34, /Users/tim.wood/github/leveler/scss/_types.scss */
 .hint {
   fill: rgba(0, 0, 0, 0.1);
   pointer-events: none;

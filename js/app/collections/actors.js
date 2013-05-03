@@ -1,12 +1,26 @@
-/*global $:false*/
 define(function (require, exports, module) {
 	var Backbone = require('Backbone'),
 		model,
-		singletons = require("../singletons"),
-		defaults = require("../defaults");
+		singletons = require("../singletons");
 
 	model = Backbone.Model.extend({
-		save : function () {}
+		save : function () {},
+		_set : function (key, val) {
+			var set = 'normalize_' + key;
+			if (typeof this[set] === 'function') {
+				val = this[set](val);
+			}
+			Backbone.Model.prototype.set.call(this, key, val);
+		},
+		set : function (key, val) {
+			if (typeof key === 'object') {
+				for (var i in key) {
+					this._set(i, key[i]);
+				}
+			} else {
+				this._set(key, val);
+			}
+		}
 	});
 
 	return Backbone.Collection.extend({
@@ -21,7 +35,6 @@ define(function (require, exports, module) {
 			if (singletons[data.type] && this.hasType(data.type)) {
 				return;
 			}
-			data = $.extend({}, defaults[data.type], data);
 			Backbone.Collection.prototype.create.call(this, data);
 		},
 
@@ -40,17 +53,11 @@ define(function (require, exports, module) {
 
 			this.each(function (model) {
 				var type = model.get('type'),
-					defs = defaults[type],
 					json = model.toJSON(),
 					o = {},
 					key;
 
 				op[type] = op[type] || [];
-
-				for (key in defs) {
-					o[key] = json[key];
-				}
-
 				op[type].push(o);
 			});
 

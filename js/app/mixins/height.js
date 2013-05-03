@@ -7,28 +7,27 @@ define(function (require) {
 			this.height_handle = this.handle().addClass('handle-y');
 			this.onMove(this.height_handle, this.height_move);
 
-			this.height_set(this.model.get('height') || 0);
+			this.model.normalize_height = $.proxy(this.height_normalize, this);
+			this.model.set('height', this.model.get('height') || 0);
 		};
 
 		this.height_move = function (x, y) {
-			this.height_set(this._raw.height + y);
+			this.model.set('height', this._raw.height + x);
 		};
 
-		this.height_set = function (height) {
-			this._raw.height = height;
+		this.height_normalize = function (val) {
+			this._raw.height = val;
+
 			if (opts.snap !== undefined) {
-				height= this.snap(height, opts.snap);
+				val = this.snap(val, opts.snap);
 			}
 			if (opts.min !== undefined) {
-				height = Math.max(opts.min, height);
+				val = Math.max(opts.min, val);
 			}
 			if (opts.max !== undefined) {
-				height = Math.min(opts.max, height);
+				val = Math.min(opts.max, val);
 			}
-
-			this.model.set({
-				height : height
-			});
+			return val;
 		};
 
 		this.render_height = function () {

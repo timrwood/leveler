@@ -5,29 +5,33 @@ define(function (require) {
 
 		this.init_width = function () {
 			this.width_handle = this.handle().addClass('handle-x');
-			this.onMove(this.width_handle, this.width_move);
+			this.onMove(this.width_handle, this.width_move, this.width_start);
 
-			this.width_set(this.model.get('width') || 0);
+			this.model.normalize_width = $.proxy(this.width_normalize, this);
+			this.model.set('width', this.model.get('width') || 0);
+		};
+
+		this.width_start = function (x, y) {
+			this._raw.width = this.model.get('width');
 		};
 
 		this.width_move = function (x, y) {
-			this.width_set(this._raw.width + x);
+			this.model.set('width', this._raw.width + x);
 		};
 
-		this.width_set = function (w) {
-			this._raw.width = w;
+		this.width_normalize = function (val) {
+			this._raw.width = val;
+
 			if (opts.snap !== undefined) {
-				w = this.snap(w, opts.snap);
+				val = this.snap(val, opts.snap);
 			}
 			if (opts.min !== undefined) {
-				w = Math.max(opts.min, w);
+				val = Math.max(opts.min, val);
 			}
 			if (opts.max !== undefined) {
-				w = Math.min(opts.max, w);
+				val = Math.min(opts.max, val);
 			}
-			this.model.set({
-				width : w
-			});
+			return val;
 		};
 
 		this.render_width = function () {

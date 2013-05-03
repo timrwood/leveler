@@ -32,4 +32,35 @@ aside {
 	button {
 		margin: 2px;
 	}
+
+	.attr {
+		line-height: 24px;
+		height: 24px;
+
+		+ .attr {
+			margin-top: 5px;
+		}
+
+		input {
+			background: #eee;
+			border: 1px solid #ddd;
+			line-height: 16px;
+			padding: 4px 5px;
+			width: 100px;
+			float: right;
+			border-radius: 3px;
+
+			&:focus {
+				outline: none;
+				border-color: #999;
+			}
+		}
+
+		label {
+			display: block;
+			height: 40px;
+			margin-right: 110px;
+			text-align: right;
+		}
+	}
 }

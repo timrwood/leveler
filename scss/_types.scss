@@ -23,6 +23,14 @@
 	@include type(#f40);
 }
 
+.is-sink {
+	@include type(#68f);
+}
+
+.is-buoy {
+	@include type(#cc5);
+}
+
 .hint {
 	fill: rgba(#000, 0.1);
 	pointer-events: none;

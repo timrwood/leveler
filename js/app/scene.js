@@ -1,14 +1,14 @@
 /*global $:false*/
 define(function (require, exports, module) {
-	var scene = {
-		init : function () {
-			$(window).on('mousedown', $.proxy(this.__moveStart, this));
-			$(window).on('mousemove', $.proxy(this.__move, this));
-			$(window).on('mouseup', $.proxy(this.__moveEnd, this));
-			$(window).on('resize', $.proxy(this.__resize, this));
-			this.__resize();
-		},
+	function Scene () {
+		$('svg').on('mousedown', $.proxy(this.__moveStart, this));
+		$(window).on('mousemove', $.proxy(this.__move, this));
+		$(window).on('mouseup', $.proxy(this.__moveEnd, this));
+		$(window).on('resize', $.proxy(this.__resize, this));
+		this.__resize();
+	}
 
+	Scene.prototype = {
 		__lx : 0,
 		__ly : 0,
 
@@ -90,7 +90,5 @@ define(function (require, exports, module) {
 		}, 100)
 	};
 
-	scene.init();
-
-	return scene;
+	return new Scene();
 });

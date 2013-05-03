@@ -3,17 +3,24 @@ define(function (require) {
 		opts = opts || {};
 
 		this.init_xy = function () {
-			this.xy_set_x(this.model.get('x') || 0);
-			this.xy_set_y(this.model.get('y') || 0);
-			this.onMove(this.g, this.xy_move);
+			this.model.normalize_x = $.proxy(this.xy_normalize_x, this);
+			this.model.normalize_y = $.proxy(this.xy_normalize_y, this);
+			this.model.set('x', this.model.get('x') || 0);
+			this.model.set('y', this.model.get('y') || 0);
+			this.onMove(this.g, this.xy_move, this.xy_start);
+		};
+
+		this.xy_start = function (x, y) {
+			this._raw.x = this.model.get('x');
+			this._raw.y = this.model.get('y');
 		};
 
 		this.xy_move = function (x, y) {
-			this.xy_set_x(this._raw.x + x);
-			this.xy_set_y(this._raw.y + y);
+			this.model.set('x', this._raw.x + x);
+			this.model.set('y', this._raw.y + y);
 		};
 
-		this.xy_set_x = function (x) {
+		this.xy_normalize_x = function (x) {
 			var snap = opts.snap || opts.snapx,
 				min = opts.minx,
 				max = opts.maxx;
@@ -29,10 +36,10 @@ define(function (require) {
 			if (max !== undefined) {
 				x = Math.min(max, x);
 			}
-			this.model.set('x', x);
+			return x;
 		};
 
-		this.xy_set_y = function (y) {
+		this.xy_normalize_y = function (y) {
 			var snap = opts.snap || opts.snapy,
 				min = opts.miny,
 				max = opts.maxy;
@@ -48,7 +55,7 @@ define(function (require) {
 			if (max !== undefined) {
 				y = Math.min(max, y);
 			}
-			this.model.set('y', y);
+			return y;
 		};
 
 		this.render_xy = function () {

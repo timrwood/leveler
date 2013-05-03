@@ -1,10 +1,22 @@
 define(function (require, exports, module) {
-	var scene = require('../scene');
+	var scene = require('../scene'),
+		plist = require("../property-list");
 
 	return require('Backbone').View.extend({
 
+		defs : {},
+
 		__init : function () {
 			this.g = $.svg('g').appendTo($('svg'));
+			this.svg('path', {
+				d : "M 0.3 0 L 0 0 L 0 -0.3 L 0 0",
+				"stroke-width" : 0.05,
+				stroke : "#000"
+			});
+			this.g.on('mousedown', $.proxy(function() {
+				plist.setModel(this.model);
+			}, this));
+
 			this._raw = {};
 			this.transform = {
 				x : 0,
@@ -17,6 +29,7 @@ define(function (require, exports, module) {
 					this[i]();
 				}
 			}
+			this.model.set(this.defs);
 			this.model.on("remove", this.remove, this);
 			this.model.on("change", this.__render, this);
 		},
@@ -34,20 +47,25 @@ define(function (require, exports, module) {
 		},
 
 		snap : function (val, snap) {
-			return Math.round(val / snap) * snap;
+			val = Math.round(val / snap) * snap;
+			return parseFloat(val.toPrecision(12));
 		},
 
 		clamp : function (val, min, max) {
 			return Math.min(max, Math.max(min, val));
 		},
 
-		onMove : function (dom, cb) {
+		onMove : function (dom, cb, startcb) {
 			var self = this;
 			dom.on('mousedown', function (e) {
 				if (e.altKey || e.ctrlKey || e.metaKey || e.button) {
 					return;
 				}
+				if (typeof startcb === "function") {
+					startcb.call(self);
+				}
 				scene.onMove($.proxy(cb, self));
+				plist.setModel(self.model);
 				return false;
 			});
 		},

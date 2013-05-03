@@ -1,5 +1,9 @@
 define(function (require) {
 	var Class = require('./actor').extend({
+		defs : {
+			width : 10
+		},
+
 		initialize : function () {
 			this.__init();
 
@@ -27,7 +31,8 @@ define(function (require) {
 	});
 
 	require("../mixins/width").call(Class.prototype, {
-		snap : 1
+		snap : 0.2,
+		min : 0
 	});
 
 	return Class;
