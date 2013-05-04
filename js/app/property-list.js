@@ -26,34 +26,28 @@ define(function () {
 			}
 			this.model = model;
 			this.listenTo(model, 'change', $.proxy(this.render, this));
-			this.resetProperties();
+			this.$el.empty();
 			this.render();
 		},
 
-		resetProperties : function () {
+		render : function () {
 			var props = this.model.toJSON(),
-				i,
-				input, label;
-			this.$el.empty();
+				input, label,
+				i;
+
+			console.log(props);
 			for (i in props) {
-				if (i === 'type') {
+				if (i === "type") {
 					continue;
 				}
-				input = $('<input>').attr('name', i);
-				label = $('<label>').text(i);
-				this.$el.append($('<div>').addClass('attr').append(input).append(label));
-			}
-		},
-
-		render : function () {
-			if (!this.model) {
-				return;
-			}
-			var props = this.model.toJSON(),
-				i,
-				val;
-			for (i in props) {
-				this.$el.find('[name="' + i + '"]').val(props[i]);
+				console.log(i);
+				input = this.$el.find('[name="' + i + '"]');
+				if (!input.length) {
+					input = $('<input>').attr('name', i);
+					label = $('<label>').text(i);
+					this.$el.append($('<div>').addClass('attr').append(input).append(label));
+				}
+				input.val(props[i]);
 			}
 		}
 	});

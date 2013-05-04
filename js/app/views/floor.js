@@ -35,5 +35,9 @@ define(function (require) {
 		min : 0
 	});
 
+	require("../mixins/polygon").call(Class.prototype, {
+
+	});
+
 	return Class;
 });
